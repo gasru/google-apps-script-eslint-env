@@ -42,8 +42,8 @@ $> npm run re-run-fix
 
 ## MS Code
 
-![alt](./static/mscode_autocomplete_view.png)
+[![alt](./static/mscode_autocomplete_view.png)](./static/mscode_autocomplete_view.png)
 
 ## Vim совместно с плагином YouCompleteMe
 
-![alt](./static/vim_ycm_autocomplete_view.png)
+[![alt](./static/vim_ymc_autocomplete_view.png)](./static/vim_ycm_autocomplete_view.png)
