@@ -1,0 +1,34 @@
+{
+  "name": "google-apps-script-eslint-env",
+  "version": "0.0.1",
+  "description": "nodejs окружение линтера ESlint для проектов Google Apps Script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "rm src/*.* && cp demo/*.js src/",
+    "lint": "eslint src/",
+    "lint-fix": "eslint --fix src/",
+    "run": "npm run demo && npm run lint && exit 0",
+    "run-fix": "npm run demo && npm run lint-fix && exit 0",
+    "re-run-fix": "npm run lint-fix && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gasru/google-apps-script-eslint-env.git"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/gasru/google-apps-script-eslint-env/issues"
+  },
+  "homepage": "https://github.com/gasru/google-apps-script-eslint-env#readme",
+  "devDependencies": {
+    "@types/google-apps-script": "0.0.27",
+    "eslint": "^5.4.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-googleappsscript": "^1.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "^1.14.2"
+  }
+}
