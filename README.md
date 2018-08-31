@@ -26,6 +26,12 @@ $> npm run run-fix
 
 ✖ 3 problems (3 errors, 0 warnings)
 ```
+# Установка поверх проекта
+```sh
+$> npm i -D @types/google-apps-script eslint eslint-config-google eslint-config-prettier eslint-plugin-googleappsscript eslint-plugin-prettier prettier
+$> curl https://raw.githubusercontent.com/gasru/google-apps-script-eslint-env/master/.eslintrc.json --output .eslintrc.json
+$> curl https://raw.githubusercontent.com/gasru/google-apps-script-eslint-env/master/.prettierrc --output .prettierrc
+```
 
 # Проверка правок
 
