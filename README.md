@@ -1,6 +1,6 @@
 # google-apps-script-eslint-env
 
-# Установка
+## Установка
 
 ```sh
 $> git clone https://github.com/gasru/google-apps-script-eslint-env.git
@@ -26,30 +26,38 @@ $> npm run run-fix
 
 ✖ 3 problems (3 errors, 0 warnings)
 ```
-# Установка поверх проекта
+
+## Установка поверх проекта
+
 ```sh
 $> npm i -D @types/google-apps-script eslint eslint-config-google eslint-config-prettier eslint-plugin-googleappsscript eslint-plugin-prettier prettier
 $> curl https://raw.githubusercontent.com/gasru/google-apps-script-eslint-env/master/.eslintrc.json --output .eslintrc.json
 $> curl https://raw.githubusercontent.com/gasru/google-apps-script-eslint-env/master/.prettierrc --output .prettierrc
 ```
 
-# Проверка правок
+## Проверка правок
 
 После внесения изменений в файл `src/Code.js` можно запустить перепроверку
+
 ```sh
 $> npm run re-run-fix
 ```
 
-# Автоавершение кода
+## Автоавершение кода
 
 Следующие условия необходимы:
+
 * Node.js
 * TSServer engine. Входит в состав TypeScript SDK `npm install -g typescript`
 
-## MS Code
+### MS Code
 
 [![alt](./static/mscode_autocomplete_view.png)](https://raw.githubusercontent.com/gasru/google-apps-script-eslint-env/master/static/mscode_autocomplete_view.png)
 
-## Vim совместно с плагином YouCompleteMe
+### Vim совместно с плагином YouCompleteMe
 
 [![alt](./static/vim_ycm_autocomplete_view.png)](https://raw.githubusercontent.com/gasru/google-apps-script-eslint-env/master/static/vim_ycm_autocomplete_view.png)
+
+### Atom совместно с плагинами atom-ide-ui и ide-typescript
+
+[![alt](./static/atom_ide_autocomplete_view.png)](https://raw.githubusercontent.com/gasru/google-apps-script-eslint-env/master/static/atom_ide_autocomplete_view.png)

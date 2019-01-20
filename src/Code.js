@@ -5,6 +5,8 @@ function getFuckingRange() {
   return buff;
 }
 
+// DocumentApp.DocumentApp.
+
 function tryToMakeDocFile() {
   var buff = getFuckingRange();
   var doc = DocumentApp.openById('-j-Zp3Q6Lo');
