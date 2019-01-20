@@ -7,16 +7,16 @@ $> git clone https://github.com/gasru/google-apps-script-eslint-env.git
 $> npm i
 $> npm run run-fix
 
-> google-apps-script-eslint-env@0.0.1 run-fix /raid/user/gasru/google-apps-script-eslint-env
-> npm run demo && npm run lint-fix && exit 0
+< google-apps-script-eslint-env@0.0.1 run-fix /raid/user/gasru/google-apps-script-eslint-env
+< npm run demo && npm run lint-fix && exit 0
 
 
-> google-apps-script-eslint-env@0.0.1 demo /raid/user/gasru/google-apps-script-eslint-env
-> rm src/*.* && cp demo/*.js src/
+< google-apps-script-eslint-env@0.0.1 demo /raid/user/gasru/google-apps-script-eslint-env
+< rm src/*.* && cp demo/*.js src/
 
 
-> google-apps-script-eslint-env@0.0.1 lint-fix /raid/user/gasru/google-apps-script-eslint-env
-> eslint --fix src/
+< google-apps-script-eslint-env@0.0.1 lint-fix /raid/user/gasru/google-apps-script-eslint-env
+< eslint --fix src/
 
 
 /raid/user/gasru/google-apps-script-eslint-env/src/Code.js
