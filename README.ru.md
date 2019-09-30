@@ -1,4 +1,9 @@
-# google-apps-script-eslint-env
+# Google Apps Script Eslint окружение
+
+## Translations
+
+- [English](./README.md)
+- [Русский](./README.ru.md)
 
 ## Установка
 
@@ -47,8 +52,8 @@ $> npm run re-run-fix
 
 Следующие условия необходимы:
 
-* Node.js
-* TSServer engine. Входит в состав TypeScript SDK `npm install -g typescript`
+- Node.js
+- TSServer engine. Входит в состав TypeScript SDK `npm install -g typescript`
 
 ### MS Code
 

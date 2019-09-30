@@ -1,4 +1,4 @@
-# google-apps-script-eslint-env
+# Google Apps Script Eslint environment
 
 ## Translations
 
